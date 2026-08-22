@@ -231,7 +231,7 @@ section {
 #contact-form textarea:focus {
   border-color: #ffcc00;
   outline: none;
-  display: none;
+  
 }
 
 .socials {
