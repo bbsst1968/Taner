@@ -95,12 +95,22 @@
     <section id="contact" class="contact">
         <h2>Booking & Presse</h2>
         <p>Für Konzertanfragen, Features und Presse bitte das Formular nutzen.</p>
-        <form action="https://api.web3forms.com/submit" method="post" id="contact-form">
-            <input type="hidden" name="access_key" value="a16de6f5-9265-4f6c-9cf7-ebb1b7c12428">
-            <input type="text" placeholder="Name / Agentur" required>
-            <input type="email" placeholder="E-Mail-Adresse" required>
-            <textarea placeholder=" Deine Nachricht..." rows="5" required></textarea>
-            <button type="submit" class="btn">Anfrage senden</button>
+        <form action="https://api.web3forms.com/submit" method="POST" id="contact-form">
+    <!-- Ihr Schlüssel ist bereits korrekt eingetragen -->
+    <input type="hidden" name="access_key" value="a16de6f5-9265-4f6c-9cf7-ebb1b7c12428">
+    
+    <!-- HIER WURDE NAME="NAME" HINZUGEFÜGT -->
+    <input type="text" name="name" placeholder="Name / Agentur" required>
+    
+    <!-- HIER WURDE NAME="EMAIL" HINZUGEFÜGT -->
+    <input type="email" name="email" placeholder="E-Mail-Adresse" required>
+    
+    <!-- HIER WURDE NAME="MESSAGE" HINZUGEFÜGT -->
+    <textarea name="message" placeholder=" Deine Nachricht..." rows="5" required></textarea>
+    
+    <button type="submit" class="btn">Anfrage senden</button>
+</form>
+
         </form>
     </section>
 
