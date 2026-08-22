@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rapper Name | Offizielles Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome für Social Media Icons -->
+    <link rel="stylesheet" href="https://cloudflare.com">
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+        <div class="logo">TANER</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Bio</a></li>
+            <li><a href="#music">Musik</a></li>
+            <li><a href="#videos">Videos</a></li>
+            <li><a href="#contact">Booking</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1>TANER</h1>
+            <p>Neues Album „ALBUM TITEL“ jetzt überall im Stream</p>
+            <a href="#music" class="btn">Jetzt anhören</a>
+        </div>
+    </header>
+
+    <!-- BIO SECTION -->
+    <section id="about" class="about">
+        <h2>Über Mich</h2>
+        <div class="about-container">
+            <div class="about-text">
+                <p>Meine Biografie...</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- MUSIC SECTION -->
+    <section id="music" class="music">
+        <h2>Aktuelle Releases</h2>
+        <div class="music-grid">
+            <!-- Album 1 -->
+            <div class="album-card">
+                <img src="images/big.jpg" alt="Album Cover">
+                <h3>Album Titel</h3>
+                <p>2026 • LP</p>
+                <div class="stream-links">
+                    <a href="https://spotify.com" title="Auf Spotify hören"><i class="fab fa-spotify"></i></a>
+                    <a href="https://apple.com" title="Auf Apple Music hören"><i class="fab fa-apple"></i></a>
+                    <a href="https://youtube.com" title="Auf YouTube ansehen"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <!-- Album 2 -->
+            <div class="album-card">
+                <img src="images/big.jpg" alt="Single Cover">
+                <h3>Single Titel</h3>
+                <p>2026 • Single</p>
+                <div class="stream-links">
+                    <a href="https://spotify.com" title="Auf Spotify hören"><i class="fab fa-spotify"></i></a>
+                    <a href="https://apple.com" title="Auf Apple Music hören"><i class="fab fa-apple"></i></a>
+                    <a href="https://youtube.com" title="Auf YouTube ansehen"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- VIDEOS SECTION -->
+    <section id="videos" class="videos">
+        <h2>Musikvideos</h2>
+        <div class="video-container">
+            <!-- YouTube Einbettung (Beispiel) -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/hk-je54rEfQ?si=njPLojeq9UHMdTAT"
+                title="Big T197" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT / BOOKING -->
+    <section id="contact" class="contact">
+        <h2>Booking & Presse</h2>
+        <p>Für Konzertanfragen, Features und Presse bitte das Formular nutzen.</p>
+        <form action="https://api.web3forms.com/submit" method="post" id="contact-form">
+            <input type="hidden" name="access_key" value="a16de6f5-9265-4f6c-9cf7-ebb1b7c12428">
+            <input type="text" placeholder="Name / Agentur" required>
+            <input type="email" placeholder="E-Mail-Adresse" required>
+            <textarea placeholder=" Deine Nachricht..." rows="5" required></textarea>
+            <button type="submit" class="btn">Anfrage senden</button>
+        </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="socials">
+            <a href="#"><i class="fab fa-tiktok">TikTok</i></a>
+            <a href="#"><i class="fab fa-spotify">Spotify</i></a>
+            <a href="#"><i class="fab fa-youtube">YouTube</i></a>
+        </div>
+        <p>&copy; 2026 Taner. Alle Rechte vorbehalten. | <a href="#">Impressum</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
